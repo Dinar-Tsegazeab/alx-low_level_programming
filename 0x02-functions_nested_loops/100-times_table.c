@@ -11,9 +11,9 @@ int tab = 0;
 
 if (n <= 15 && n >= 0)
 {
-for (X = 0; X <= n; X++)
+for (X = 0; n >= X; X++)
 {
-for (Y = 0; Y <= n; Y++)
+for (Y = 0; n >= Y; Y++)
 {
 tab = (X * Y);
 if (tab < 10)
@@ -40,7 +40,7 @@ _putchar((tab / 100) + '0');
 _putchar(((tab % 100) / 10) + '0');
 _putchar((tab % 10) + '0');
 }
-if (Y != n)
+if (n != Y)
 _putchar(',');
 }
 _putchar('\n');
