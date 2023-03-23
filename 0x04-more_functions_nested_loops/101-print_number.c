@@ -13,16 +13,13 @@ if (n < 0)
 _putchar('-');
 n = -n;
 }
-
 i = n;
 j = 1;
-
 while (i > 9)
 {
 j *= 10;
 i /= 10;
 }
-
 while (j > 0)
 {
 k = n / j;
