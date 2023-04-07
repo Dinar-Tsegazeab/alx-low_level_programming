@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Program that prints the name of the program
+ * main - Program that prints the number of arguments passed to the program
  * @argv:array of argumemts
  * @argc:number of arguments
  *
