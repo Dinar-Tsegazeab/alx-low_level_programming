@@ -16,7 +16,7 @@ if (str == NULL)
 return (NULL);
 
 for (len = 0; str[len]; len++)
-        ;
+	;
 new_str = malloc(sizeof(char) * (len + 1));
 if (new_str == NULL)
 return (NULL);
